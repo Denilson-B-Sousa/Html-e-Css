@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color:rgb(165, 165, 165);
+            padding: 5px;
+            box-shadow: 3px 2px 3px 0px rgba(0, 0, 0, 0.5);
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        article{
+            background-color: rgb(165, 165, 165);
+        }
+        aside{
+            background-color:rgb(94, 94, 94)
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align:center;
+            padding: 2px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Tecnologia, filosofia e fé</p>
+        </section>
+        <section id= noticias>
+            <article>
+                <h1>Organização conteúdo Site:</h1>
+                <p>
+                    Estrutura básica para organização do conteúdo:
+                    <ol>
+                        <li>Header</li>
+                        <li>Main</li>
+                        <li>Section</li>
+                        <li>article</li>
+                    </ol>
+                </p>
+                <aside>
+                    <p>Artigo escrito por Denilson B. Sousa</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por denilson</p>
+    </footer>
+    <div id=""></div>
+    <!--Cada uma dessas tags funciona como uma div, porém são tags semânticas que especifica melhor a organização do conteúdo.-->
+    <!---->
+
+    
+</body>
+</html>

@@ -7,43 +7,40 @@
     <meta name="description" content="ProjetoN.com Notícias sobre a agência espacial nasa, fotos e vídeos de missões espaciais, pioneira na exploração espacial, descobertas científicas e pesquisas aeronáuticas.">
     <title>NASA</title>
     <link rel="shortcut icon" href="favicon/nasa_favicon_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div>
-            <img src="" alt="">
+    <header class="cabecalho">
+        <div class="cabecalho">
+            <img class="Cabecalho-imagem"src="imagens/Nasa_logo.png" alt="Nasa logo">
         </div>
 
-        <nav>
-            <ul type="none">
-                <li>Informações</li>
-                <li>Sobre</li>
-                <li>Site</li>
-                <li><button>Pesquisar </button></li>
-            </ul>
+        <nav class="cabecalho-menu"> 
+                <a href="#" class="cabecalho-menu-item">Informações</a>
+                <a href="#" class="cabecalho-menu-item">Sobre</a>
+                <a href="#" class="cabecalho-menu-item">Site</a>
         </nav>
     </header>
-    <main>
-        <div>
-            <h1>Agência Espacial Nasa</h1>
-        </div>
-        <section>
-            <div>
-                <p>Nasa é uma agência espacial localizada nos Estados Unidos da América - EUA. Tem como principal missão a exploração espacial</p>
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">Agência Espacial Nasa</h1>
             </div>
-
-            <div>
-                <button>Nasa Tv</button>
+            <div class="conteudo-principal-escrito-texto">
+                    <p> Nasa é uma agência espacial localizada nos Estados Unidos da América - EUA. Tem como principal missão a exploração espacial</p>
+                    <button class="conteudo-principal-escrito-butao" id="butao-alinhado">Nasa Tv</button>
             </div>
+       
+           
         </section>
-        <section>
-            <div>
-                <img src="imagens/nasa.jpg" alt="Imagem Edifício Nasa">
+        <section class="conteudo-secundario">
+            <div class="conteudo-secundario-escrito" > 
+                <img class = "conteudo-secundario-imagem" src="imagens/nasa.jpg" alt="Imagem Edifício Nasa">
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="rodape">
+       <img class="rodape-imagem" src="#" alt="Imagem nasa">
     </footer>
 </body>
 </html>

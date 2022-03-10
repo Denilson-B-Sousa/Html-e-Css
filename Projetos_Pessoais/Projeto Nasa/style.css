@@ -8,7 +8,7 @@
 }
 
 :root{
-    --cor0: #ffff;
+    --cor0: #ffffff;
     --cor1: #01204C;
     --cor2: #1541C0;
     --cor3: #333333;
@@ -28,15 +28,19 @@ body{
     padding: 24px;
 }
 
+.cabecalho-imagem{
+    height: 72px;
+}
+
 .cabecalho-menu{
     display: flex;
-    gap: 32px; /*Gap espaço entre os items do menu */
+    gap: 32px; /*Gap distância entre os items do menu */
 }
 
 .cabecalho-menu-item{
     font-family: 'Titillium Web', sans-serif;
     color: var(--cor0);
-    font-weight: 500; /*Força do negrito */
+    font-weight: 600; /*Força do negrito */
 }
 
 .conteudo{
@@ -45,15 +49,16 @@ body{
 }
 
 .conteudo-principal{
-    display: Flex; /*Layouts para diferentes dispositivos */
-    flex-direction: column; /* Row= Horizontalmente column= um abaixo do outro */
+    display: Flex; /*Iniciar utilização do flex-box */
+    flex-direction: row; /* Row= Horizontalmente column= um abaixo do outro */
+    align-items: center;
     justify-content: space-around;
 }
 
 .conteudo-principal-escrito {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 16px;
 }
 
 .conteudo-principal-escrito-titulo {
@@ -63,7 +68,7 @@ body{
     color: var(--cor4);
 }
 
-.conteudo-principal-escrito-texto{
+.conteudo-principal-escrito-paragrafo{
     font-family: 'Titillium Web', sans-serif;
     font-weight: 500;
     text-align: justify;
@@ -73,12 +78,21 @@ body{
 }
 
 .conteudo-principal-escrito-butao{
+    text-align: center;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
     width: 180px;
     height: 30px;
-    ;
     color: var(--cor0);
     background-color: #1541C0;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
-    text-align: center;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal-escrito-botao:hover {
+}
+
+.conteudo-principal-imagem{
+    padding: 32px;
 }

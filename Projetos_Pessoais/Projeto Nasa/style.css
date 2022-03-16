@@ -96,3 +96,14 @@ body{
 .conteudo-principal-imagem{
     padding: 32px;
 }
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: var(--cor2);
+}
+
+.rodape-escrito{
+    text-align: center;
+}

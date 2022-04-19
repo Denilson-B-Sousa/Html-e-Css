@@ -79,20 +79,28 @@ body{
     max-width: 600px;
 }
 
-.conteudo-principal-escrito--butao{
-    text-align: center;
-    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-    width: 180px;
-    height: 30px;
-    color: var(--cor0);
-    background-color: #1541C0;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 600;
-    margin-bottom: 48px;
+.conteudo-principal-butao{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
 }
 
-.conteudo-principal-escrito--botao:hover {
+.conteudo-principal-escrito--butao{
+    background-color: #1541C0;
+    width: 180px;
+    height: 32px;
+    border-radius: 5px;
+    color:var(--cor0);
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+} 
+
+.conteudo-principal-escrito-butao-link{
+    color:var(--cor0);
+}
+
+.conteudo-principal-escrito--butao:hover {
 }
 
 .conteudo-principal--imagem{

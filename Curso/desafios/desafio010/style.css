@@ -111,8 +111,8 @@ main{
     min-width: 400px;
     max-width: 800px;
     margin: auto;
-    margin-bottom: 30px;
     padding: 20px;
+    margin-bottom: 30px;
     border-radius: 10px;
 }
 
@@ -135,7 +135,6 @@ main > img.pequena {
     min-width: 400px;
     max-width: 800px;
     display: block;
-    margin: auto;
 }
 
 main > a{
@@ -163,7 +162,8 @@ footer {
     color: #ffff;
     text-align: center;
     font-size: 0.8em;
-    padding: 5px;
+    padding: 10px;
+
 }
 
 footer a{

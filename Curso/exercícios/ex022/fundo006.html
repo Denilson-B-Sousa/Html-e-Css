@@ -14,7 +14,16 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: scroll;
 
+            /*background-attachment é utilizado para colocar a imagem de fundo fixa ou rolável(scroll) */
+
+            /* Shothand - background
+            
+            color > image > position > repeat > [size] > attachment
+            */
+
+            background-color: black url('imagens-cap19/wallpaper002.jpg') center center no-repeat cover fixed;
 
             /*background-size: contain deixa 100% 
               background-size: cover; corta a imagem e adapta de acordo com o tamanho da janela(viewport)
@@ -23,7 +32,7 @@
 
         main{
             background-color: #ffff;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
@@ -34,7 +43,8 @@
 <body>
     <main>
         <h1>Teste imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti itaque deserunt accusamus laboriosam voluptate recusandae hic tempora ea numquam, quam officiis animi quos similique laudantium aliquam minus a nostrum! Quos sapiente aperiam sequi exercitationem quisquam, commodi necessitatibus illum officiis molestias?  </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti itaque deserunt accusamus laboriosam voluptate recusandae hic tempora ea numquam, quam officiis animi quos similique laudantium aliquam minus a nostrum! Quos sapiente aperiam sequi exercitationem quisquam, commodi necessitatibus illum officiis molestias? 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam libero quam, sit molestias possimus placeat, necessitatibus impedit rerum repudiandae, beatae iure. Itaque minus nulla vel consequatur expedita, sit alias et. Lorem ipsum dolor sit amet consectetur adipisicing elit. In reiciendis eos dolore saepe expedita molestias doloremque sint, placeat aperiam excepturi impedit similique quisquam. Fugiat ea id repudiandae, eos qui porro? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur architecto laborum earum, ullam inventore culpa dolores   </p>
     </main>
 </body>
 </html>

@@ -17,7 +17,7 @@
 <a href="https://denilson-b-sousa.github.io/Html-e-Css/Curso/desafios/desafio010/site.html">Site Android </a>
 
 <hr>
-<h2>Sites Básicos</h2
+<h2>Sites Básicos</h2>
 <p>Reforçando o conhecimento em Html e Css</p>
 <a href="https://github.com/Denilson-B-Sousa/Html-e-Css/tree/main/Sites">Sites Html e Css </a>
 

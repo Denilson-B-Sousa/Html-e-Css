@@ -19,7 +19,7 @@
 <hr>
 <h2>Sites Básicos</h2>
 <p>Reforçando o conhecimento em Html e Css</p>
-<a href="https://github.com/Denilson-B-Sousa/Html-e-Css/tree/main/Sites">Sites Html e Css </a>
+<a href="https://denilson-b-sousa.github.io/Html-e-Css/Sites/Barbearia/">Barbearia</a>
 
 
 <h2>Projetos pessoais</h2>

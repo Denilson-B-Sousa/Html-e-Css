@@ -1,0 +1,153 @@
+/*Inline --> Conteudo do mesmo tamanho
+Block --> Conteúdo 100% da página
+
+hover, quando o usuário passa o cursor sobre o elemento
+active, quando um elemento está sendo ativado pelo usuário
+*/
+
+*{
+    margin: 0;
+}
+
+header{
+    background: #BBBBBB;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: larger;
+    margin-bottom: 5px;
+}
+
+.input-padrao {
+    margin-bottom: 10px;
+    display: block;
+    padding: 5px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 200px;
+    height: 42px;
+    background: lightseagreen;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.enviar:hover{
+    background: darkcyan;
+    transform: scale(1.1);
+    rotate: 360deg;
+}
+
+
+.box{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav  li{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 800;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: #000 solid 2px;
+    border-radius: 32px;
+}
+
+.produtos li:hover {
+    border-color: yellow;
+}
+
+.produtos li:active{
+    border-color: lightgreen;
+
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+a:hover{
+    color: yellow; 
+    text-decoration: underline;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-preco{
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: gray;
+    color: #ffffff;
+}
+
+td{
+    border: 1px solid #000;
+}
+
+footer > p{
+    color: #ffffff;
+}
+
+footer{
+     text-align: center;
+     background-image: url(../assets/ProductsPage/imagens/bg.jpg);
+     padding: 40px;
+}

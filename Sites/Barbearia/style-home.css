@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #cccccc;
+}
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+strong{
+    color: red;
+}
+
+#text{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#banner{
+    width: 100%;
+}
+
+
+/*Tudo que é feito no elemento pai
+reflete no elemento filho 
+
+RGB = Red Green Blue
+
+0 --> ausência --> Preto
+255 --> Máximo --> Branco
+
+Hexadecimal: 0123456789ABCDEF
+
+# _ _ Red _ _ Green _ _ Blue
+
+0 --> ausência de cor
+f --> Máximo de cada cor
+*/
+
+.items{
+    font-style: italic;
+}
+
+.beneficios{
+    background-color: #fff;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagem-beneficios{
+    width: 50%;
+}
+
+.principal{
+    background-color: #cccccc;
+    padding: 30px;
+}
+
+.principal-title{
+    text-align: center;
+}
+
+.header-title{
+    padding: 20px;
+}

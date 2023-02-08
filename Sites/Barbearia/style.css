@@ -13,6 +13,18 @@ header{
     background: #BBBBBB;
 }
 
+/* Css página inicial */
+
+.banner {
+    width: 100%;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 0 1em;
+}
+
 main {
     width: 940px;
     margin: 0 auto;

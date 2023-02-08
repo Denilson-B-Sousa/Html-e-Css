@@ -53,23 +53,17 @@ h2{
     text-align: center;
 }
 
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
 
 .imagem-beneficios{
     width: 50%;
 }
 
-.principal{
+.main{
     background-color: #cccccc;
     padding: 30px;
 }
 
-.principal-title{
+.main-title{
     text-align: center;
 }
 
